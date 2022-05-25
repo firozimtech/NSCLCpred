@@ -18,7 +18,7 @@ res3<-res2 %>% mutate(log.adj.P.Val=-log10(adj.P.Val))
 # to check a gene and its records
 filter(res3, Gene == "DDX3Y")
 
-# generate a figures
+# generate a figure
 jpeg(file="volcano_plot.jpeg",
 width=10, height=10, units="in", res=600)
 
