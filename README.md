@@ -1,6 +1,6 @@
 ## Project Title: Development of machine learning model integrating transcriptional and biological interaction data to predict non-small cell lung cancer using LASSO. 
 
-### Motivation: This repository contains all information to develope a LASSO model for predicting Non-small cell lung cancer (NSCLC). It can be applied for other cancers.
+### Motivation: This repository contains all information to develope a LASSO model for predicting Non-small cell lung cancer (NSCLC). It can also be applied for other cancers.
 
 It contains following steps:
 1. Identification of Differentially Expressed Genes (DEGs)
