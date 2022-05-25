@@ -33,10 +33,10 @@
 5. Checking the performance of [LASSO-MODEL](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/LASSO_model.rds) on independend datasets(TD1 and TD2).
     - Test dataset TD1: [x.test](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/x4.test.rds), and [y.test](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/y.test.rds)
     - Test datasets TD2: \
-    (a) Gene Expression of [GSE19804]() normalized by RMA, (b) Pheno data [pheno_GSE19804](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE19804.txt).\
-    (b) Gene Expression of [GSE19804]() normalized by RMA, (b) Pheno data [pheno_GSE19804](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE19804.txt).\
-    (c) Gene Expression of [GSE19804]() normalized by RMA, (b) Pheno data [pheno_GSE19804](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE19804.txt).\
-    (d) Name of [17 selected genes](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/importantgene_5_final.txt) and their probes. The gene expression data was from [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array.
+    (a) Gene Expression of [GSE19804](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE19804) normalized by RMA, (b) Pheno data [pheno_GSE19804](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE19804.txt).\
+    (b) Gene Expression of [GSE18842](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18842) normalizedby RMA, (b) Pheno data [pheno_GSE18842](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE18842.txt)).\
+    (c) Gene Expression of [GSE27262](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27262) normalized by RMA, (b) Pheno data [pheno_GSE27262](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE27262.txt).\
+    (d) Name of [17 selected genes](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/importantgene_5_final.txt) and their probes. All the above gene expression data was from [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array.
 
  6. An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLC_LASSO/) is also develope for predicting your dataset. 
 
