@@ -8,10 +8,15 @@
     - Ma'ayan lab's Appyter bulk RNA-seq analysis pipeline was used for DEGs.
         Jupyter Notebook [Xena_DE_Analysis_Pipeline.ipynb](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Xena_DE_Analysis_Pipeline.ipynb) for DEGs is provided.
 
-2. Identification of biologically important nodes in the network
+2. Create a Volcano plot of DEGs
+    - Use the program [Volcano_plot.R.](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/Volcano_plot.R)
+    - Use input file [DEGs.](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/DEG_results_Primary_Tumor_Recurrent_Tumor_vs_Normal_Tissue_Solid_Tissue_Normal.csv)
+    - Output JPEG file named "volcano_plot.jpeg".
+    
+3. Identification of biologically important nodes in the network
     - 40 genes identified by analyzing the DEGs and interactome data from BIOGRID using Cytoscape.
 
-3. LASSO model development 
+4. LASSO model development 
     - Lung specific Gene Expression (RSEM norm_count) data was downloaded from UCSC Xena (https://xena.ucsc.edu/). 
     - The dataset consists of expression values of 40 genes identified in step (2), from 1013 samples of lung cancer and 397 samples as control, was selected.
     - This dataset was divided into 80% training dataset (TR contains 1128 samples) and 20% as independent test dataset 1 (TD1 contains 282 samples).
@@ -24,7 +29,7 @@
     - Input file 3: [Sample_Name_3.csv](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Sample_Name_3.csv), sample name and sample type (Cancer vs Normal).
     - Here is the final [LASSO-MODEL](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/LASSO_model.rds).
 
-4. Create a Volcano plot of DEGs
-    - Use the program [Volcano_plot.R.](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/Volcano_plot.R)
-    - Use input file [DEGs.](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/DEG_results_Primary_Tumor_Recurrent_Tumor_vs_Normal_Tissue_Solid_Tissue_Normal.csv)
-    - Output JPEG file named "volcano_plot.jpeg".
+5. Checking the performance of [LASSO-MODEL](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/LASSO_model.rds) on independend datasets(TD1 and TD2).
+    
+
+
