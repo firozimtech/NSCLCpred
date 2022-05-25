@@ -6,7 +6,7 @@
 1. Identification of Differentially Expressed Genes (DEGs)
     - Lung specific gene expression data was selected TCGA-TARGET-GTEx from Xena (https://xena.ucsc.edu/).
     - Ma'ayan lab's Appyter bulk RNA-seq analysis pipeline was used for DEGs.
-        Jupyter Notebook "Xena_DE_Analysis_Pipeline.ipynb" for DEGs is provided.
+        Jupyter Notebook [Xena_DE_Analysis_Pipeline.ipynb](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Xena_DE_Analysis_Pipeline.ipynb) for DEGs is provided.
 
 2. Identification of biologically important nodes in the network
     - 40 genes identified by analyzing the DEGs and interactome.
