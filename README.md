@@ -34,7 +34,7 @@
     - Test dataset TD1: [x.test](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/x4.test.rds), and [y.test](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/y.test.rds)
     - Test datasets TD2: \
     (a) Gene Expression of [GSE19804]() normalized by RMA, (b) Pheno data [pheno_GSE19804](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE19804.txt).\
-    (d) Name of [17 selected genes](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/importantgene_5_final.txt) and their probes. The gene expression data was from [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array.\
+    (d) Name of [17 selected genes](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/importantgene_5_final.txt) and their probes. The gene expression data was from [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array.
 
  6. An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLC_LASSO/) is also develope for predicting your dataset. 
 
