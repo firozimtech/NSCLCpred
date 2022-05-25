@@ -20,5 +20,5 @@ It contains following steps:
     GSE18842 (Sanchez-Palencia, Gomez-Morales et al. 2011), GSE27262 (Wei, Juan et al. 2012), and GSE19804 (Lu, Tsai et al. 2010).
     - Programe file (LASSO_Classification_NSCLC.R) is provided.
     - Input file 1: "GeneExp.txt", (Gene Expression data downloaded from Xena).
-    - Input file 2: "DEGs_degree.txt", List of selecetd genes (40) identified by DEGs and Network analysis.
-    - Input file 3: ""Sample_Name_3.csv", sample name and sample type (Cancer vs Normal). 
+    - Input file 2: [DEGs_degree.txt](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/DEGs_degree.txt), List of selecetd genes (40) identified by DEGs and Network analysis.
+    - Input file 3: [Sample_Name_3.csv](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Sample_Name_3.csv), sample name and sample type (Cancer vs Normal). 
