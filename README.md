@@ -28,9 +28,10 @@
     - Input file 2: [DEGs_degree.txt](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/DEGs_degree.txt), List of selecetd genes (40) identified by DEGs and Network analysis.
     - Input file 3: [Sample_Name_3.csv](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Sample_Name_3.csv), sample name and sample type (Cancer vs Normal).
     - Here is the final [LASSO-MODEL](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/LASSO_model.rds). You can use this model for predicting your own datasets. 
-    - *An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLC_LASSO/) is also develope for predicting your dataset. 
+   
 
 5. Checking the performance of [LASSO-MODEL](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/LASSO_model.rds) on independend datasets(TD1 and TD2).
     
 
+ 6. An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLC_LASSO/) is also develope for predicting your dataset. 
 
