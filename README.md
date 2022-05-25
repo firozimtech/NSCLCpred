@@ -31,7 +31,7 @@
    
 
 5. Checking the performance of [LASSO-MODEL](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/LASSO_model.rds) on independend datasets(TD1 and TD2).
-    
+    - Test dataset TD1 [x.test](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/x4.test.rds), and [y.test](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/y.test.rds)
 
  6. An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLC_LASSO/) is also develope for predicting your dataset. 
 
