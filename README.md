@@ -5,7 +5,7 @@ predicting Non-small cell lung cancer (NSCLC). *
 
 It contains following steps:
 1. Identification of Differentially Expressed Genes (DEGs)
-    - Lung specific gene expression data was selected TCGA-TARGET-GTEx.
+    - Lung specific gene expression data was selected TCGA-TARGET-GTEx from Xena (https://xena.ucsc.edu/).
     - Ma'ayan lab's Appyter bulk RNA-seq analysis pipeline was used for DEGs.
         Jupyter Notebook "Xena_DE_Analysis_Pipeline.ipynb" for DEGs is provided.
 
