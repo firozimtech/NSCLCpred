@@ -9,7 +9,7 @@
         Jupyter Notebook [Xena_DE_Analysis_Pipeline.ipynb](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Xena_DE_Analysis_Pipeline.ipynb) for DEGs is provided.
 
 2. Identification of biologically important nodes in the network
-    - 40 genes identified by analyzing the DEGs and interactome.
+    - 40 genes identified by analyzing the DEGs and interactome data from BIOGRID using Cytoscape.
 
 3. LASSO model development 
     - Lung specific Gene Expression (RSEM norm_count) data was downloaded from UCSC Xena (https://xena.ucsc.edu/). 
