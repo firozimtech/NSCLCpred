@@ -23,7 +23,7 @@
     - The LASSO model was developed using 10-fold cross-validations(cv) on the TR dataset, and performance was checked on test dataset TD1
     - The performance of LASSO model was checked on three independent datasets:
     GSE18842 (Sanchez-Palencia, Gomez-Morales et al. 2011), GSE27262 (Wei, Juan et al. 2012), and GSE19804 (Lu, Tsai et al. 2010).
-    - Programe file (LASSO_Classification_NSCLC.R) is provided.
+    - Programe file [LASSOpred.R](https://github.com/firozimtech/NSCLCpred/blob/main/LASSO_Classification_LungCancer_4Feb2022_Final.R) for LASSO model developent and performance check.
     - Input file 1: "GeneExp.txt", (Gene Expression data downloaded from Xena). This file is not available due to its big size (373 MB). However, we are providing the TR data cotaining expression values of only 40 selected genes as [x.training](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/x4.train.rds) and [y.training.](https://github.com/firozimtech/LASSO-for-NSCLC/blob/main/y.train.rds)
     - Input file 2: [DEGs_degree.txt](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/DEGs_degree.txt), List of selecetd genes (40) identified by DEGs and Network analysis.
     - Input file 3: [Sample_Name_3.csv](https://github.com/firozimtech/LASSO-for-NSCLC/blob/8e997912adc303525b1a384cd0c32ae2336635e2/Sample_Name_3.csv), sample name and sample type (Cancer vs Normal).
