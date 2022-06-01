@@ -38,5 +38,9 @@
     (c) Gene Expression of [GSE27262](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27262) normalized by RMA, (b) Pheno data [pheno_GSE27262](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/pheno_GSE27262.txt).\
     (d) Name of [17 selected genes](https://github.com/firozimtech/NSCLC_LASSO_Predictor/blob/main/importantgene_5_final.txt) and their probes. All the above gene expression data was from [HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array.
 
- 6. An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLC_LASSO/) is also develope for predicting your dataset. 
+ 6. Logistic regression Models and their performance.
+    -  Models were developed on the signature of 40 genes, identified using log2FC and network node degree. Training data (TR data)[https://github.com/firozimtech/NSCLCpred/blob/main/train_40.rds], and testing data(TD1)[https://github.com/firozimtech/NSCLCpred/blob/main/test_40.rds]. 
+    -  Models were developed on the signature of 17 genes, identified using LASSO regression. Training data (TR data)[https://github.com/firozimtech/NSCLCpred/blob/main/train_17.rds], and testing data(TD1)[https://github.com/firozimtech/NSCLCpred/blob/main/test_17.rds]. 
+ 
+ 7. An easily accessible [shiny webserver](https://hifzuransari.shinyapps.io/NSCLCpred/) is also develope for predicting your dataset. 
 
